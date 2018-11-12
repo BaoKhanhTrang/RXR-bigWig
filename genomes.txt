@@ -1,2 +1,2 @@
 genome mm9
-trackDb mm9/trackRXR.txt
+trackDb trackRXR.txt
