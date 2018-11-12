@@ -1,0 +1,6 @@
+hub RXRa
+shortLabel RXRa mm9
+longLabel UCSC Genome Informatics Hub for mouse liver RXRa
+genomesFile genomes.txt
+email trangkhanh@gmail.com
+descriptionUrl

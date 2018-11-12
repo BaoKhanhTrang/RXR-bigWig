@@ -1,0 +1,70 @@
+track RXR
+container multiWig
+shortLabel RXR
+longLabel RXR
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate transparentOverlay
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track RXR_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13529276?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT02
+longLabel RXR ZT02
+parent RXR
+type bigWig
+color 255,192,203 
+
+track RXR_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13529279?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT06
+longLabel RXR ZT06
+parent RXR
+type bigWig
+color 238,130,238 
+
+track RXR_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13529282?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT10
+longLabel RXR ZT10
+parent RXR
+type bigWig
+color 255,105,180
+
+track RXR_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13529285?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT14
+longLabel RXR ZT14
+parent RXR
+type bigWig
+color 255,110,180
+
+track RXR_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13529291?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT18
+longLabel RXR ZT18
+parent RXR
+type bigWig
+color 238,106,167
+
+track RXR_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13529294?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT22
+longLabel RXR ZT22
+parent RXR
+type bigWig
+color 205,96,144
+
+track RXR_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13529297?private_link=4afad79d6308ded0dda5
+shortLabel RXR ZT26
+longLabel RXR ZT26
+parent RXR
+type bigWig
+color 139,58,98
