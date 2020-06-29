@@ -3,4 +3,3 @@ shortLabel RXRa mm9
 longLabel UCSC Genome Informatics Hub for mouse liver RXRa
 genomesFile https://raw.githubusercontent.com/BaoKhanhTrang/RXR-bigWig/master/genomes.txt
 email trangkhanh@gmail.com
-descriptionUrl
