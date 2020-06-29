@@ -1,2 +1,2 @@
 genome mm9
-trackDb https://github.com/BaoKhanhTrang/RXR-bigWig/blob/master/trackRXR.txt
+trackDb https://raw.githubusercontent.com/BaoKhanhTrang/RXR-bigWig/master/trackRXR.txt
