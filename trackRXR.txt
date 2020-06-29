@@ -5,7 +5,7 @@ longLabel RXR
 type bigWig
 #viewLimits 0:160
 visibility full
-aggregate transparentOverlay
+aggregate stacked
 showSubtrackColorOnUi on
 windowingFunction maximum
 priority 1.2
@@ -14,36 +14,36 @@ autoScale on
 dragAndDrop subtracks
 
 track RXR_ZT02
-bigDataUrl https://ndownloader.figshare.com/files/13529276?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529276?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT02
 longLabel RXR ZT02
 parent RXR
 type bigWig
-color 255,192,203 
+color 0,255,205 
 
 track RXR_ZT06
-bigDataUrl https://ndownloader.figshare.com/files/13529279?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529279?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT06
 longLabel RXR ZT06
 parent RXR
 type bigWig
-color 238,130,238 
+color 255,158,0 
 
 track RXR_ZT10
-bigDataUrl https://ndownloader.figshare.com/files/13529282?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529282?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT10
 longLabel RXR ZT10
 parent RXR
 type bigWig
-color 255,105,180
+color 255,0,62
 
 track RXR_ZT14
-bigDataUrl https://ndownloader.figshare.com/files/13529285?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529285?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT14
 longLabel RXR ZT14
 parent RXR
 type bigWig
-color 255,110,180
+color  255,243,0
 
 track RXR_ZT18
 bigDataUrl https://ndownloader.figshare.com/files/13529291?private_link=4afad79d6308ded0dda5
@@ -51,20 +51,377 @@ shortLabel RXR ZT18
 longLabel RXR ZT18
 parent RXR
 type bigWig
-color 238,106,167
+color 188,45,255
 
 track RXR_ZT22
-bigDataUrl https://ndownloader.figshare.com/files/13529294?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529294?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT22
 longLabel RXR ZT22
 parent RXR
 type bigWig
-color 205,96,144
+color 22,160,133
 
 track RXR_ZT26
-bigDataUrl https://ndownloader.figshare.com/files/13529297?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529297?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT26
 longLabel RXR ZT26
 parent RXR
 type bigWig
-color 139,58,98
+color 255,45,166
+
+track INPUT
+container multiWig
+shortLabel INPUT
+longLabel INPUT
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track INPUT_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13529303?private_link=47cd67512b521cd4201a
+shortLabel INPUT ZT02
+longLabel INPUT ZT02
+parent INPUT
+type bigWig
+color 0,191,255 
+
+track INPUT_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13529306?private_link=47cd67512b521cd4201a
+shortLabel INPUT ZT06
+longLabel INPUT ZT06
+parent INPUT
+type bigWig
+color 0,191,205 
+
+track INPUT_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13529309?private_link=4afad79d6308ded0dda5
+shortLabel INPUT ZT10
+longLabel INPUT ZT10
+parent INPUT
+type bigWig
+color 30,144,255 
+
+track INPUT_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13529312?private_link=4afad79d6308ded0dda5
+shortLabel INPUT ZT14
+longLabel INPUT ZT14
+parent INPUT
+type bigWig
+color 30,144,205 
+
+track INPUT_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13529315?private_link=47cd67512b521cd4201a
+shortLabel INPUT ZT18
+longLabel INPUT ZT18
+parent INPUT
+type bigWig
+color 28,134,238 
+
+track INPUT_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13529318?private_link=47cd67512b521cd4201a
+shortLabel INPUT ZT22
+longLabel INPUT ZT22
+parent INPUT
+type bigWig
+color 24,116,205
+
+track INPUT_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13529321?private_link=47cd67512b521cd4201a
+shortLabel INPUT ZT26
+longLabel INPUT ZT26
+parent INPUT
+type bigWig
+color 16,78,139
+
+track DNAseI
+container multiWig
+shortLabel DNAseI
+longLabel DNAseI
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track DNAseI_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13534592?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT02
+longLabel DNAseI ZT02
+parent DNAseI
+type bigWig
+color 0,255,205 
+
+track DNAseI_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13534598?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT06
+longLabel DNAseI ZT06
+parent DNAseI
+type bigWig
+color 255,158,0 
+
+track DNAseI_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13534604?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT10
+longLabel DNAseI ZT10
+parent DNAseI
+type bigWig
+color 255,0,62
+
+track DNAseI_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13534622?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT14
+longLabel DNAseI ZT14
+parent DNAseI
+type bigWig
+color  255,243,0
+
+track DNAseI_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13534613?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT18
+longLabel DNAseI ZT18
+parent DNAseI
+type bigWig
+color 188,45,255
+
+track DNAseI_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13534616?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT22
+longLabel DNAseI ZT22
+parent DNAseI
+type bigWig
+color 22,160,133
+
+track DNAseI_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13534619?private_link=d75636a8949124a37e7e
+shortLabel DNAseI ZT26
+longLabel DNAseI ZT26
+parent DNAseI
+type bigWig
+color 255,45,166
+
+track POLR2B
+container multiWig
+shortLabel POLR2B
+longLabel POLR2B
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track POLR2B_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13840064?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT02
+longLabel POLR2B ZT02
+parent POLR2B
+type bigWig
+color 0,255,205 
+
+track POLR2B_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13840067?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT06
+longLabel POLR2B ZT06
+parent POLR2B
+type bigWig
+color 255,158,0 
+
+track POLR2B_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13840070?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT10
+longLabel POLR2B ZT10
+parent POLR2B
+type bigWig
+color 255,0,62
+
+track POLR2B_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13840082?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT14
+longLabel POLR2B ZT14
+parent POLR2B
+type bigWig
+color  255,243,0
+
+track POLR2B_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13840097?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT18
+longLabel POLR2B ZT18
+parent POLR2B
+type bigWig
+color 188,45,255
+
+track POLR2B_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13840100?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT22
+longLabel POLR2B ZT22
+parent POLR2B
+type bigWig
+color 22,160,133
+
+track POLR2B_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13840103?private_link=2557ce787f142251e046
+shortLabel POLR2B ZT26
+longLabel POLR2B ZT26
+parent POLR2B
+type bigWig
+color 255,45,166
+
+
+
+track H3K4me3
+container multiWig
+shortLabel H3K4me3
+longLabel H3K4me3
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track H3K4me3_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13840382?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT02
+longLabel H3K4me3 ZT02
+parent H3K4me3
+type bigWig
+color 0,255,205 
+
+track H3K4me3_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13840385?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT06
+longLabel H3K4me3 ZT06
+parent H3K4me3
+type bigWig
+color 255,158,0 
+
+track H3K4me3_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13840394?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT10
+longLabel H3K4me3 ZT10
+parent H3K4me3
+type bigWig
+color 255,0,62
+
+track H3K4me3_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13840397?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT14
+longLabel H3K4me3 ZT14
+parent H3K4me3
+type bigWig
+color  255,243,0
+
+track H3K4me3_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13840415?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT18
+longLabel H3K4me3 ZT18
+parent H3K4me3
+type bigWig
+color 188,45,255
+
+track H3K4me3_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13840424?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT22
+longLabel H3K4me3 ZT22
+parent H3K4me3
+type bigWig
+color 22,160,133
+
+track H3K4me3_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13840430?private_link=a4d278934ae49b57f81b
+shortLabel H3K4me3 ZT26
+longLabel H3K4me3 ZT26
+parent H3K4me3
+type bigWig
+color 255,45,166
+
+track H3K36me3
+container multiWig
+shortLabel H3K36me3
+longLabel H3K36me3
+type bigWig
+#viewLimits 0:160
+visibility full
+aggregate stacked
+showSubtrackColorOnUi on
+windowingFunction maximum
+priority 1.2
+configurable on
+autoScale on
+dragAndDrop subtracks
+
+track H3K36me3_ZT02
+bigDataUrl https://ndownloader.figshare.com/files/13840232?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT02
+longLabel H3K36me3 ZT02
+parent H3K36me3
+type bigWig
+color 0,255,205 
+
+track H3K36me3_ZT06
+bigDataUrl https://ndownloader.figshare.com/files/13840286?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT06
+longLabel H3K36me3 ZT06
+parent H3K36me3
+type bigWig
+color 255,158,0 
+
+track H3K36me3_ZT10
+bigDataUrl https://ndownloader.figshare.com/files/13840301?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT10
+longLabel H3K36me3 ZT10
+parent H3K36me3
+type bigWig
+color 255,0,62
+
+track H3K36me3_ZT14
+bigDataUrl https://ndownloader.figshare.com/files/13840304?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT14
+longLabel H3K36me3 ZT14
+parent H3K36me3
+type bigWig
+color  255,243,0
+
+track H3K36me3_ZT18
+bigDataUrl https://ndownloader.figshare.com/files/13840310?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT18
+longLabel H3K36me3 ZT18
+parent H3K36me3
+type bigWig
+color 188,45,255
+
+track H3K36me3_ZT22
+bigDataUrl https://ndownloader.figshare.com/files/13840316?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT22
+longLabel H3K36me3 ZT22
+parent H3K36me3
+type bigWig
+color 22,160,133
+
+track H3K36me3_ZT26
+bigDataUrl https://ndownloader.figshare.com/files/13840319?private_link=e63f622dc00978ca82a9
+shortLabel H3K36me3 ZT26
+longLabel H3K36me3 ZT26
+parent H3K36me3
+type bigWig
+color 255,45,166
