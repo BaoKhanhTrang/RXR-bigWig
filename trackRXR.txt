@@ -46,7 +46,7 @@ type bigWig
 color  255,243,0
 
 track RXR_ZT18
-bigDataUrl https://ndownloader.figshare.com/files/13529291?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529291?private_link=47cd67512b521cd4201a
 shortLabel RXR ZT18
 longLabel RXR ZT18
 parent RXR
@@ -101,7 +101,7 @@ type bigWig
 color 0,191,205 
 
 track INPUT_ZT10
-bigDataUrl https://ndownloader.figshare.com/files/13529309?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529309?private_link=47cd67512b521cd4201a
 shortLabel INPUT ZT10
 longLabel INPUT ZT10
 parent INPUT
@@ -109,7 +109,7 @@ type bigWig
 color 30,144,255 
 
 track INPUT_ZT14
-bigDataUrl https://ndownloader.figshare.com/files/13529312?private_link=4afad79d6308ded0dda5
+bigDataUrl https://ndownloader.figshare.com/files/13529312?private_link=47cd67512b521cd4201a
 shortLabel INPUT ZT14
 longLabel INPUT ZT14
 parent INPUT
